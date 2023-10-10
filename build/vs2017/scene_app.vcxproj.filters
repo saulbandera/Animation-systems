@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\3D System">
+      <UniqueIdentifier>{0003b8cf-d379-42f1-8197-95b8f9c07fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2D System">
+      <UniqueIdentifier>{f665558b-91eb-4fb9-8458-24d964d5411b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\3D System Headers">
+      <UniqueIdentifier>{242008a9-f816-4b82-b314-fe2825f02635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2D System Headers">
+      <UniqueIdentifier>{ec287f89-010f-4e8a-8d64-1670b8eb4cc5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\main_d3d11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\scene_app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\main_vita.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\load_texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ccd.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\motion_clip_player.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\load_json.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_builder.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\primitive_renderer.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vertex_colour_unlit_shader.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\picking.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\AnimatedCharacter3D.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\AnimatedSkinnedMeshInstance.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\AnimationControl.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\AnimationData.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\AnimationStateManager.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\AnimationSystem3D.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\BlendNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\BlendTree.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\ClipNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\FrozenTransitionNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\GradualTransitionNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\Linear2BlendNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\OutputNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\SmoothTransitionNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="3D system\TwoDimensionalBlendNode.cpp">
+      <Filter>Source Files\3D System</Filter>
+    </ClCompile>
+    <ClCompile Include="2D system\AnimatedCharacter2D.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+    <ClCompile Include="2D system\AnimationSystem2D.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+    <ClCompile Include="2D system\Bone.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+    <ClCompile Include="2D system\SkinSlot.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+    <ClCompile Include="2D system\SubTexture.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+    <ClCompile Include="2D system\TextureAtlas.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+    <ClCompile Include="2D system\AnimationData2D.cpp">
+      <Filter>Source Files\2D System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\scene_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\load_texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ccd.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\load_json.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\motion_clip_player.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitive_builder.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\primitive_renderer.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\picking.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vertex_colour_unlit_shader.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\AnimatedCharacter3D.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\AnimatedSkinnedMeshInstance.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\AnimationControl.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\AnimationData.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\AnimationStateManager.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\AnimationSystem3D.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\BlendNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\BlendTree.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\ClipNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\FrozenTransitionNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\GradualTransitionNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\Linear2BlendNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\OutputNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\SmoothTransitionNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="3D system\TwoDimensionalBlendNode.h">
+      <Filter>Header Files\3D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2D system\AnimatedCharacter2D.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2D system\AnimationSystem2D.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2D system\Bone.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2D system\SkinSlot.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2D system\SubTexture.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2D system\TextureAtlas.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="2D system\AnimationData2D.h">
+      <Filter>Header Files\2D System Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
